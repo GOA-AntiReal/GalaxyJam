@@ -77,7 +77,7 @@ public class Unit : MonoBehaviour
         {
             ifactive = true;
             GameObject tileMapImport = GameObject.Find("Tilemap");
-            Tilemap tileMapScript = tileMapImport.GetComponent<Tilemap>();
+            TilemapController tileMapScript = tileMapImport.GetComponent<TilemapController>();
             List<GameObject> importList = tileMapScript.unitList;
             Vector3 mouseWOrldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             float y = Mathf.Round(mouseWOrldPos[1]);
