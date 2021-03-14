@@ -983,26 +983,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stargate: Move a tile vertically or diagonally for as many times as you
+  m_text: "Stargate: Move a tile vertically or diagonally for as many times as you
     want. If a movement tile in one direction is blocked by another starship, no
-    further movements in that direction are allowed.
-
-
-    Destroyer: Has the combined
-    movement options of the stargate and the long warper.
-
-
-    Mothership: Move
-    one tile in any direction or 2 tiles horizontally or diagonally.
-
-
-    Moving
-    a starship into a tile occupied by a starship of the other faction destroys the
-    starship of the other faction. When a starship moves, it recolors the tiles it
-    moved to/through as that player''s territory. Territories are reclaimable. When
-    the mothership is destroyed, there are no unoccupied territories left (the player
-    with more territory wins) or when a player''s probe reaches the other side of
-    the board, the game ends. '
+    further movements in that direction are allowed.\n\nDestroyer: Has the combined
+    movement options of the stargate and the long warper.\n\nMothership: Move one
+    tile in any direction or 2 tiles horizontally or diagonally.\n\nMoving a starship
+    into a tile occupied by a starship of the other faction destroys the starship
+    of the other faction. When a starship moves, it recolors the tiles it moved to/through
+    as that player's territory. Territories are reclaimable. When the mothership
+    is destroyed, there are no unoccupied territories left (the player with more
+    territory wins) or when a player's probe reaches the other side of the board,
+    the game ends. \n\nWarpers and Long Warpers can jump over meteor tiles as if
+    they were other starships, but not blackhole tiles."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1029,8 +1021,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1499,7 +1491,7 @@ GameObject:
   - component: {fileID: 1501604936}
   - component: {fileID: 1501604935}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: TitleScreenMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1652,7 +1644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -808, y: -500}
+  m_AnchoredPosition: {x: -808, y: -466}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667829144
@@ -2076,7 +2068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 804, y: -500}
+  m_AnchoredPosition: {x: 804, y: -466}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992914799
