@@ -9,11 +9,6 @@ public class Unit : MonoBehaviour
     public float endX;
     public float endY;
     public int moveTick = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     private void FixedUpdate()

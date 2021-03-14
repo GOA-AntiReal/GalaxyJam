@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour
 {
     public void playGame()
     {
-        SceneManager.LoadScene("SampleScene");
-        SceneManager.UnloadSceneAsync("TitleScreen");
+        GameObject darkScreen = GameObject.Find("DarkScreen");
+        DarkScreen script = darkScreen.GetComponent<DarkScreen>();
+        script.active = true;
     }
 }
